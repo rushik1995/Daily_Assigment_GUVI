@@ -1,0 +1,18 @@
+Task 1: Create your Resume
+Task 2: All tags in HTML Cheatsheet in your html with explanations      
+
+Task 3: Use typeof in all the datatypes and check the result
+typeof(1)
+typeof(1.1)
+typeof("1.1")
+typeof(true)
+typeof(null)
+typeof(undefined)
+typeof([])
+typeof({}) 
+
+Task 4: Create a html file
+          -Body 
+            -P
+              -H1  & Span (Explanation of h1)
+                -Fill the next 5
