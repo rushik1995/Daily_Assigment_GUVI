@@ -1,0 +1,90 @@
+ body{
+margin-top: 0px;
+}
+
+.header-black{
+  width: 800px;
+  height: 300px;
+    background-color: #35352B;
+  margin: auto;
+}
+
+ .header-white{
+height: 22px;
+width: 800px;
+background-color: white;
+position: relative;
+top: 250px;
+
+}
+
+.header-yellow{
+  text-align: center;
+  height: 40px;
+  width: 300px;
+  background-color: #DCBE08;
+   position: relative;
+
+   /* bottom: 70px; */
+  left: 250px;
+  bottom: 7px;
+  font-size: 30px; */
+}
+
+
+.profile-pic{
+  position: absolute;
+   bottom: 35px;
+  border-radius: 40%;
+  right: 100px;
+  border: 3px dotted #DCBE08;
+}
+
+.personal-detail-section{
+  width: 800px;
+  margin:auto;
+  text-align: center;
+}
+
+.personal-details{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+hr{
+  margin-bottom: 0px;
+}
+
+.left-section{
+  height: 900px;
+width: 400px;
+  background-color: white;
+  border-right: 1px solid black;
+  position: relative;
+  bottom: 920px;
+  /* padding-left: 100px; */
+}
+.right-section{
+  position: relative;
+  height: 900px;
+width: 400px;
+  background-color: white;
+  left: 400px;
+  /* border-right: 1px solid black; */
+  /* padding-left: 100px; */
+}
+h2{
+  text-align: left;
+  padding-left: 5px;
+}
+ #icon{
+  padding-right: 10px;
+}
+p{
+  text-align: left;
+}
+.paragraph{
+  text-align: left;
+  padding-left: 5px;
+  padding-right: 5px;
+}
