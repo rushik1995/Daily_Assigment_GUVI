@@ -1,0 +1,92 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.grid-container {
+    display: grid;
+    margin: auto;
+    width: 100%;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+.grid-item{
+    text-align: center;
+    border: 1px solid lightgrey;
+    margin:10px;
+    padding:10px;
+}
+.black{
+    background-color: black;
+    color: white;
+    height:40%;
+}
+.cost{
+    display: inline-block;
+    width: 50%;
+}
+
+.add-cart{
+    display: inline-block;
+    width: 30%;
+}
+.button{
+    background-color: limegreen;
+    padding: 5px;
+    margin:5px;
+    color:white;
+    border: 2px solid limegreen;
+    border-radius: 3px;
+}
+.one{
+    background-color: black;
+    color: whitesmoke;
+    font-size: 2em;
+    align-content: center;
+    height: 200px;
+
+}
+.two{
+    position: relative;
+    top:80px;
+}
+
+
+header{
+  width: 100%;
+  height: 70px;
+  background-color: #282828;
+}
+h1{
+  position: absolute;
+  padding: 3px;
+  float: right;
+  margin-right: 2%;
+  margin-top: 10px;
+  color: #39ca74;
+}
+span{
+  color: #ffffff;
+}
+
+ul{
+  width: auto;
+  float: right;
+  margin-top: 8px;
+}
+li{
+  display: inline-block;
+  padding: 15px 30px;
+}
+a{
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+}
+a:hover{
+  color:#F0c330;
+  transition: 0.5s;
+}
