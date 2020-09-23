@@ -1,0 +1,56 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+.button{
+  width: 100px;
+  height: 50px;
+  font-size: 25px;
+  margin: 2px;
+  cursor: pointer;
+  border-radius: 15%;
+  background: #4C6397;
+  color: white;
+  transition: 0.3s;
+  outline: none;
+}
+.button:hover{
+  background: lightblue;
+  outline: none;
+}
+.button:active {
+  background-color: green;
+  outline: none;
+}
+
+
+.textview{
+  width: 300px;
+  margin: 25px;
+  font-size: 30px;
+  padding: 5px;
+  border-radius: 15%;
+  background: #4C6397;
+  color: white;
+  outline: none;
+}
+
+#row{
+  height : 130px;
+}
+
+#main{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  /* background-color: tomato; */
+  height 100%;
+}
+
+.bg{
+  background: linear-gradient(to right,tomato, yellow);
+  height: 750px;
+  /* width : 100%; */
+}
