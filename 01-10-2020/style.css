@@ -1,0 +1,19 @@
+body{
+    background-color: grey;
+}
+.container{
+    margin-top: 24px;
+}
+
+#flag-div{
+    margin-top: 24px;
+}
+
+.butCenter{
+    margin-left: 40%;
+}
+
+.Title{
+    text-align: center;
+    color: tomato;
+}
