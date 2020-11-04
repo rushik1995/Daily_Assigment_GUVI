@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TS-Cricket</title>
+    <!-- CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- HEADING -->
+      <div class="row" id="main" style="text-align: center;">
+        <div class="col" id="team-1">
+          <div id="heading-1"><h1>TEAM-1</h1></div>
+          <div><h2 id="score-1" >0</h2></div>
+          <div><button id="hit-1" class="btn-primary">HIT 1</button></div>
+        </div>
+
+        <div class="col" id="team-2" style="text-align: center;">
+          <div id="heading-2"><h1 >TEAM-2</h1></div>
+          <div><h2 id="score-2" >0</h2></div>
+          <div><button id="hit-2" class="btn-primary">HIT 2</button></div>
+        </div>
+      </div>
+      <main>
+
+          <!-- TEAM-1 GRID -->
+            <div class="row">
+          <div class="col-sm-12 col-md-5 col-lg-5">
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th scope="col">TEAM-1</th>
+                  <th scope="col">B1</th>
+                  <th scope="col">B2</th>
+                  <th scope="col">B3</th>
+                  <th scope="col">B4</th>
+                  <th scope="col">B5</th>
+                  <th scope="col">B6</th>
+                  <th scope="col">TOTAL</th>
+                </tr>
+              </thead>
+              <tbody id="team-1-players">
+                <!-- TEAM-1-PLAYERS -->
+              </tbody>
+            </table>
+          </div>
+          <!-- SCORE CARD -->
+          <div class="col-sm-12 col-md-2 col-lg-2 bg-light scoreCard" style="text-align: center;">
+            <div><button id="ScoreDisplay" class="btn-success result" onclick="Result();" >Generate Result</button></div>
+            <br>
+            <br>
+            <p id="result"></p>
+            <br>
+            <br>
+            <p id=""></p>
+          </div>
+          <!-- TEAM-2 GRID -->
+          <div class="col-sm-12 col-md-5 col-lg-5">
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th scope="col">TEAM-1</th>
+                  <th scope="col">B1</th>
+                  <th scope="col">B2</th>
+                  <th scope="col">B3</th>
+                  <th scope="col">B4</th>
+                  <th scope="col">B5</th>
+                  <th scope="col">B6</th>
+                  <th scope="col">TOTAL</th>
+                </tr>
+              </thead>
+              <tbody id="team-2-players">
+                <!-- TEAM-2-PLAYERS -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
